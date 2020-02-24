@@ -1,0 +1,32 @@
+.illustration {
+    width: 100%;
+    max-width: 1170px;
+  }
+
+div.back {
+    background-image: url(../im/back.svg);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+div.back:hover {
+    background-image: url(../im/back_h.svg);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+div.backdiv {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
